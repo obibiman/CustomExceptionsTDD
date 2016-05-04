@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeisureTravel", "LeisureTravel\LeisureTravel.csproj", "{28DB8E97-EA4B-4991-AD76-8543DB59F958}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeisureTravel.Tests", "LeisureTravel.Tests\LeisureTravel.Tests.csproj", "{7647801E-690C-4C5B-9B44-F16CBE52D0DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorMoq", "CalculatorMoq\CalculatorMoq.csproj", "{32639B7E-8775-41D4-BA02-A9948A1CFA7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorMoq.Tests", "CalculatorMoq.Tests\CalculatorMoq.Tests.csproj", "{3E85BB37-923B-4DB9-9EE1-D1876ACEAF54}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{7647801E-690C-4C5B-9B44-F16CBE52D0DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7647801E-690C-4C5B-9B44-F16CBE52D0DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7647801E-690C-4C5B-9B44-F16CBE52D0DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32639B7E-8775-41D4-BA02-A9948A1CFA7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32639B7E-8775-41D4-BA02-A9948A1CFA7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32639B7E-8775-41D4-BA02-A9948A1CFA7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32639B7E-8775-41D4-BA02-A9948A1CFA7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E85BB37-923B-4DB9-9EE1-D1876ACEAF54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E85BB37-923B-4DB9-9EE1-D1876ACEAF54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E85BB37-923B-4DB9-9EE1-D1876ACEAF54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E85BB37-923B-4DB9-9EE1-D1876ACEAF54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
